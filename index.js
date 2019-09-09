@@ -10,3 +10,7 @@ const logDriversByHometown= function (drivers, hometown) { drivers.forEach( func
   }
 });
 }
+
+const totalRevenue= function(drivers){
+  return 
+}
