@@ -15,7 +15,8 @@ const driversbyname= function(drivers) { return drivers.split().sort(function(dr
 
 
 const totalRevenue= function(drivers){
-  return drivers.reduce(function(driver) {
+  return drivers.reduce(function(driver1, driver2) {
+    return driver1 - driver2
     
   })
 }
